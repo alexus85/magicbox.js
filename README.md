@@ -1,7 +1,7 @@
 
 <h1 align="center">MagicBox.js</h1>
 <p align="center">
-  <img title="backbone marionette" src='./gfx/magic_box.png' width="200" height="200" />
+  <img title="MagicBox" src='./gfx/magic_box.png' width="200" height="200" />
 </p>
 
 ## About
@@ -39,6 +39,8 @@ also re-structure it to follow the jQuery-UI "standard" widget concept )*
   + Each widget has it's own template to generate the layout.
 
 #### Example
+<img title="MagicBox" src='./gfx/inventory.png' />
+
 ```javascript
 $('#element').inventory({
 	rows: 2,
