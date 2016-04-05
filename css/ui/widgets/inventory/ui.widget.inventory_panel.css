@@ -1,0 +1,47 @@
+.ui-widget-element.text.caption{
+	position: absolute;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-top: -24px; /*caption's height */
+	padding: 2px 0 2px 0;
+	width: 100%;
+	text-align: center;
+	background-color: #264d73;
+	box-shadow: inset 0 0 10px 2px #0d1a26;
+	border-radius: 4px 4px 0 0;
+	-webkit-user-select: none; 
+	-moz-user-select: none; 
+	-khtml-user-select: none; 
+	-ms-user-select: none; 
+	cursor: default;
+}
+
+.ui-widget.inventory{
+	position: absolute;
+	padding-top: 24px;/* to match the caption's height */ 
+	float: left;
+	margin-left: 1px;
+}
+
+.ui-widget.inventory_panel{
+	position: relative;
+	width: auto;
+	height: auto;
+	clear:both;
+	background-color: #204060;
+	border-radius: 0 0 4px 4px;
+	/*Disable select*/
+	-webkit-user-select: none; /* webkit (safari, chrome) browsers */
+	-moz-user-select: none; /* mozilla browsers */
+	-khtml-user-select: none; /* webkit (konqueror) browsers */
+	-ms-user-select: none; /* IE10+ */
+}
+
+.ui-widget-element.container{
+	position: relative;
+	padding:0;
+	margin:0;
+	/*border: 1px solid red;*/
+	width: auto;
+	height: auto;
+}

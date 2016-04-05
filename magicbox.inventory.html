@@ -1,0 +1,80 @@
+﻿<html>
+
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./css/ui/widgets/inventory/ui.widget.inventory_panel.css">
+		<link rel="stylesheet" type="text/css" href="./css/ui/widgets/inventory/ui.widget.inventory_slot.css">
+		<link rel="stylesheet" type="text/css" href="./css/ui/widgets/inventory/ui.widget.inventory_item.css">
+		
+		<title>MagicBox.Inventory</title>
+		
+		<script src="./js/libs/vendor/jquery.min.js"  content-type="text/javascript"></script>
+		<script src="./js/libs/vendor/jquery-ui.min.js"  content-type="text/javascript"></script>
+		<!-- MagicBox framework init-->
+		<script src="./js/libs/custom/magicbox/utils/miniTemplate.js"  content-type="text/javascript"></script>
+		<script src="./js/libs/custom/magicbox/widgets/mBox.inventory.js"  content-type="text/javascript"></script>
+	</head>
+	<script>
+	$(document).ready(function(){
+		$('#my_inventory1').inventory({
+			rows: 3,
+			cols: 4,
+			widgets: {
+				panel: {
+					template: "./js/templates/inventory_panel.jst"
+				},
+				slot: {
+					template: "./js/templates/inventory_slot.jst"
+				},
+				item: {
+					template: "./js/templates/inventory_item.jst"
+				}
+			},
+			snap: "#inventories"
+		});
+		$('#my_inventory2').inventory({
+			rows: 3,
+			cols: 2,
+			widgets: {
+				panel: {
+					template: "./js/templates/inventory_panel.jst"
+				},
+				slot: {
+					template: "./js/templates/inventory_slot.jst"
+				},
+				item: {
+					template: "./js/templates/inventory_item.jst"
+				}
+			},
+			snap: "#inventories"
+		});
+		
+		$('#my_inventory3').inventory({
+			rows: 2,
+			cols: 2,
+			widgets: {
+				panel: {
+					template: "./js/templates/inventory_panel.jst"
+				},
+				slot: {
+					template: "./js/templates/inventory_slot.jst"
+				},
+				item: {
+					template: "./js/templates/inventory_item.jst"
+				}
+			},
+			snap: "#inventories"
+		});
+		
+		//$('body').inventory_panel("option", "slot:width", 45); //// set single option ///
+		//$('body').inventory_panel("option", { "slot:width" :  55}); /// set multiple options /////
+	});
+	</script>
+	<body>
+		<section id="inventories_wrapper" style="width:90%; height: 90%; border: 1px solid #000">
+			<div id="my_inventory1"></div>
+			<div id="my_inventory2"></div>
+			<div id="my_inventory3"></div>
+		</section>
+	</body>
+</html>
