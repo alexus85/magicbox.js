@@ -11,6 +11,9 @@ MagicBox is a jQuery-UI plugin that helps you create UI for your web-games.
 *( The code may be a little bit messy at this moment, but I will do my best to make the code as clean as possible and 
 also re-structure it to follow the jQuery-UI "standard" widget concept )*
 
+### Known bugs
+* inventory slots are not centered properly once the number of cols or rows exceeds 4. 
+
 ### TODO List:
 * **widget.Inventory**
 	- [x] make panel draggable/droppable
