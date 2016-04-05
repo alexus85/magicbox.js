@@ -11,7 +11,7 @@ also re-structure it to follow the jQuery-UI "standard" widget design )*
 	- [x] draggable/droppable items
 	- [x] stack items when `item.type` is equal
 	- [x] switch item positions when `item.type` is not equal
-	- [] items show stats
+	- [ ] items show stats
 * widget.RPG_text
 * widget.RPG_attributer
 * miniTemplate.js
