@@ -1,5 +1,5 @@
 
-<img https://raw.githubusercontent.com/alexus85/magicbox.js/master/gfx/magic_box.png width="50" height="50" />
+<img src="https://raw.githubusercontent.com/alexus85/magicbox.js/master/gfx/magic_box.png" width="200" height="200" />
 
 
 ## About MagicBox
