@@ -14,7 +14,7 @@ also re-structure it to follow the jQuery-UI "standard" widget design )*
 	- [ ] items show stats
 * **widget.RPG_text**
 * **widget.RPG_attributer**
-*** miniTemplate.js**
+* ** miniTemplate.js**
 	- [x] load template using Ajax
 	- [x] read template and evaluate all variables
 
