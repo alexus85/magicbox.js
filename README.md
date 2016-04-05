@@ -39,7 +39,7 @@ also re-structure it to follow the jQuery-UI "standard" widget concept )*
   + Each widget has it's own template to generate the layout.
 
 #### Example
-<img title="MagicBox" src='./gfx/inventory.png' />
+<img title="MagicBox" src='./gfx/inventory.png' width="500" height="200" />
 
 ```javascript
 $('#element').inventory({
