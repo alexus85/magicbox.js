@@ -1,7 +1,5 @@
 
-[logo]: https://raw.githubusercontent.com/alexus85/magicbox.js/master/gfx/magic_box.png "MagicBox"
-
-![alt text](https://raw.githubusercontent.com/alexus85/magicbox.js/master/gfx/magic_box.png "MagicBox")
+<img https://raw.githubusercontent.com/alexus85/magicbox.js/master/gfx/magic_box.png width="50" height="50" />
 
 
 ## About MagicBox
