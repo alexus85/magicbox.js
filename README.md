@@ -33,8 +33,8 @@ also re-structure it to follow the jQuery-UI "standard" widget concept )*
   + stats are shown, while hovering over item's icon.
   + Items of same type can be stacked, different types will just switch their positon.
 * Panel
-  + It's also poossible, to move around with entire inventory panel.
   + Panel's colision detection won't let you place panels over each other.
+  + it's possible now to move around with entire inventory panel.
 * General
   + Each widget has it's own template to generate the layout.
 
