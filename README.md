@@ -37,13 +37,13 @@ $('#element').inventory({
 	cols: 2,
 	widgets: {
 		panel: {
-			template: "./templates/inventory_panel.jst"
+			template: "./js/templates/inventory_panel.jst"
 		},
 		slot: {
-			template: "./templates/inventory_slot.jst"
+			template: "./js/templates/inventory_slot.jst"
 		},
 		item: {
-			template: "./templates/inventory_item.jst"
+			template: "./js/templates/inventory_item.jst"
 		}
 	}
 });
