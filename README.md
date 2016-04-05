@@ -7,11 +7,13 @@ also re-structure it to follow the jQuery-UI "standard" widget concept )*
 
 ### TODO List:
 * **widget.Inventory**
-	- [x] draggable/droppable panel
-	- [x] draggable/droppable items
+	- [x] make panel draggable/droppable
+	- [x] make panel not to colide with each other
+	- [x] make items draggable/droppable
 	- [x] stack items when `item.type` is equal
 	- [x] switch item positions when `item.type` is not equal
-	- [ ] items show stats
+	- [ ] show item stats
+	- [ ] change the way of assigning icons to items (use css) 
 * **widget.RPG_text**
 * **widget.RPG_attributer**
 * **miniTemplate.js**
