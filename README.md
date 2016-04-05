@@ -1,7 +1,7 @@
 
-<h1 align="center">MagicBox.jss</h1>
+<h1 align="center">MagicBox.js</h1>
 <p align="center">
-  <img title="backbone marionette" src='gfx/marionette-logo.png' width="200" height="200" />
+  <img title="backbone marionette" src='./gfx/magic_box.png' width="200" height="200" />
 </p>
 
 ## About
