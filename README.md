@@ -1,7 +1,14 @@
 ## About MagicBox
 MagicBox is a jQuery-UI plugin that helps you create UI for your web-games.
 
+TODO:
+- [x] widget.Inventory 
+- [ ] widget.RPG_text 
+- [ ] widget.RPG_atrributer
+- [x] miniTemplate.js - used to load and parse the template 
+
 ### Features
+**Inventory**
 * Items
   + All items are draggable/droppable
   + Item stats are shown, while hovering over its icon.
