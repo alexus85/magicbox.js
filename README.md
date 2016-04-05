@@ -1,5 +1,5 @@
-# magicbox
-MagicBox is jQuery-ui plugin that helps you create UI for your web-games.
+## About MagicBox
+MagicBox is a jQuery-UI plugin that helps you create UI for your web-games.
 
 ### Features
 * Items
@@ -30,3 +30,7 @@ $('#element').inventory({
 	}
 });
 ```
+
+#### Requirements
+* jQuery version >= 1.10.x
+* jQuery-UI version >= 1.10.x
