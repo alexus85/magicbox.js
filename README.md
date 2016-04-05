@@ -1,8 +1,10 @@
 
-<img src="https://raw.githubusercontent.com/alexus85/magicbox.js/master/gfx/magic_box.png" width="200" height="200" />
+<h1 align="center">MagicBox.jss</h1>
+<p align="center">
+  <img title="backbone marionette" src='gfx/marionette-logo.png' width="200" height="200" />
+</p>
 
-
-## About MagicBox
+## About
 MagicBox is a jQuery-UI plugin that helps you create UI for your web-games.
 
 ### Note
