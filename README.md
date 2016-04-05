@@ -1,3 +1,6 @@
+
+[logo]: https://github.com/alexus85/magicbox.js/raw/master/src/gfx/magic_box.png "MagicBox"
+
 ## About MagicBox
 MagicBox is a jQuery-UI plugin that helps you create UI for your web-games.
 
