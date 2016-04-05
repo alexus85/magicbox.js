@@ -22,7 +22,7 @@ also re-structure it to follow the jQuery-UI "standard" widget concept )*
 **Inventory**
 * Items
   + All items are draggable/droppable
-  + Item stats are shown, while hovering over its icon.
+  + stats are shown, while hovering over item's icon.
   + Items of same type can be stacked, different types will just switch their positon.
 * Panel
   + It's also poossible, to move around with entire inventory panel.
